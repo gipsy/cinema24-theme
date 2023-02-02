@@ -92,7 +92,7 @@ npm install --global gulp-cli
 3. In cinema24 there are already these files that you need: `gulpfile.js`, `package.json` and `package-lock.json`. Therefore what you need next are the Node packages. To get these, you need to `cd` to the cinema24 theme’s root folder and do an `npm install` in your terminal:
 
 ```
-npm install
+yarn install
 ```
 
 4. A few minutes later, with all the `node_modules/` installed as local dev dependencies (as you can see from the 'package.json` these are: autoprefixer, cssnano, gulp, gulp-postcss, gulp-sass, and gulp-sourcemaps), you should simply be able to run gulp by typing this in your terminal:
