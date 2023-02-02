@@ -1,0 +1,32 @@
+{
+  "name": "cinema24",
+  "version": "0.1",
+  "description": "Gulp-SASS and other dependencies for cinema24, a WordPress starter theme with Bootstrap 4 and Font Awesome 5.",
+  "repository": {
+    "url": "https://github.com/gipsy/cinema24-theme"
+  },
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WordPress",
+    "Theme",
+    "Bootstrap 4",
+    "Font Awesome 5",
+    "Gulp",
+    "Sass",
+    "SCSS"
+  ],
+  "author": "Simon Padbury",
+  "license": "Unlicense"
+}
