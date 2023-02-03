@@ -32,9 +32,10 @@
         ) );
       ?>
 
-      <button class="btn btn-outline-success my-2 my-sm-0 ml-auto" type="button"
-        data-toggle="modal" data-target="#userFormModal" data-whatever="@getform">Try Now
-      </button>
+<!--      <button class="btn btn-outline-success my-2 my-sm-0 ml-auto" type="button"-->
+<!--        data-toggle="modal" data-target="#userFormModal" data-whatever="@getform">Try Now</button>-->
+      <button class="btn btn-outline-primary ml-auto my-2 my-sm-0" type="button"
+        id="userFormModalTrigger">Try Now</button>
     </div>
 
   </div>

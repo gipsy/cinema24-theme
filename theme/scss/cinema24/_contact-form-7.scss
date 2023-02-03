@@ -1,0 +1,25 @@
+.wpcf7-form {
+  label {
+    font-size: .6rem;
+    font-weight: 300;
+    color: gray;
+    margin-bottom: 0;
+  }
+}
+.wpcf7-submit-wrapper {
+  margin: 0;
+  p {
+    position: relative;
+    margin: 0;
+  }
+
+  .wpcf7-spinner {
+    position: absolute;
+    left:0;
+    right:0;
+    top: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -12px;
+  }
+}
