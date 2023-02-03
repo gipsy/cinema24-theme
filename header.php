@@ -32,7 +32,9 @@
         ) );
       ?>
 
-      <?php cinema24_navbar_search();?>
+      <button class="btn btn-outline-success my-2 my-sm-0 ml-auto" type="button"
+        data-toggle="modal" data-target="#userFormModal" data-whatever="@getform">Try Now
+      </button>
     </div>
 
   </div>
