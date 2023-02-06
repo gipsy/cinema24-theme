@@ -15,28 +15,31 @@
 
     <?php cinema24_navbar_brand();?>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarDropdown">
-      <?php
-        wp_nav_menu( array(
-          'theme_location'  => 'navbar',
-          'container'       => false,
-          'menu_class'      => '',
-          'fallback_cb'     => '__return_false',
-          'items_wrap'      => '<ul id="%1$s" class="navbar-nav mr-auto %2$s">%3$s</ul>',
-          'depth'           => 2,
-          'walker'          => new cinema24_walker_nav_menu()
-        ) );
-      ?>
+      <!--#TODO wrapped it manually as we do not use wp_nav_menu at the moment -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <?php
+          wp_nav_menu( array(
+            'theme_location'  => 'navbar',
+            'container'       => false,
+            'menu_class'      => '',
+            'fallback_cb'     => '__return_false',
+            'items_wrap'      => '<ul id="%1$s" class="navbar-nav mr-auto %2$s">%3$s</ul>',
+            'depth'           => 2,
+            'walker'          => new cinema24_walker_nav_menu()
+          ) );
+        ?>
+      </ul>
 
-<!--      <button class="btn btn-outline-success my-2 my-sm-0 ml-auto" type="button"-->
-<!--        data-toggle="modal" data-target="#userFormModal" data-whatever="@getform">Try Now</button>-->
-      <button class="btn btn-outline-primary ml-auto my-2 my-sm-0" type="button"
-        id="userFormModalTrigger">Try Now</button>
+      <div class="d-flex">
+        <button id="userLogin" class="btn btn-outline-success" type="button">Log In</button>
+      </div>
     </div>
+  </div>
 
   </div>
 </nav>

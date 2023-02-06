@@ -33,19 +33,5 @@
 <?php
   cinema24_main_after();
 
-  if(is_active_sidebar('main-widget-area')): ?>
-  <section id="site-main-widgets" class="bg-light">
-    <div class="container">
-      <div class="row pt-5 pb-4" id="main-widget-area" role="navigation">
-        <?php
-          cinema24_main_widgets_before();
-          dynamic_sidebar('main-widget-area');
-          cinema24_main_widgets_after();
-        ?>
-      </div>
-    </div>
-  </section>
-  <?php endif;
-
   get_footer();
 ?>

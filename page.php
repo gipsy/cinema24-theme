@@ -3,9 +3,9 @@
   cinema24_main_before();
 ?>
 
-<?php /* if (function_exists('dimox_breadcrumbs')) { ?>
+<?php if (function_exists('dimox_breadcrumbs')) { ?>
   <?php dimox_breadcrumbs(); ?>
-<?php } */ ?>
+<?php } ?>
 
 <main id="site-main"
  class="mt-5">
